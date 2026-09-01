@@ -1,0 +1,26 @@
+.section {
+  position: relative;
+  height: 82vh;
+  min-height: 420px;
+  max-height: 760px;
+  overflow: hidden;
+  background: var(--ink);
+}
+
+.photo {
+  object-fit: cover;
+  object-position: 50% 35%;
+}
+
+.caption {
+  position: absolute;
+  left: 32px;
+  bottom: 22px;
+  z-index: 2;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--cream);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}

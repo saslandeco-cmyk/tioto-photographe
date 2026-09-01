@@ -1,0 +1,151 @@
+:root {
+  --sand: #efe3d2;
+  --cream: #faf5ec;
+  --stucco: #c9a488;
+  --stucco-dark: #a97e5c;
+  --ink: #221e1a;
+  --ink-soft: #4a443d;
+  --red: #b5372a;
+  --red-deep: #8a2a20;
+  --line: rgba(34, 30, 26, 0.14);
+  --line-strong: rgba(34, 30, 26, 0.28);
+
+  --font-display: "Anton", sans-serif;
+  --font-body: "Work Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --wrap: 1240px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01" on;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 3px;
+}
+
+.wrap {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 12px;
+  color: var(--red-deep);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 22px;
+  height: 1px;
+  background: var(--red-deep);
+  display: inline-block;
+}
+
+.section-heading {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  line-height: 0.94;
+  letter-spacing: 0.005em;
+  color: var(--ink);
+  font-size: clamp(34px, 5vw, 58px);
+  margin: 18px 0 0;
+}
+
+.section-heading em {
+  font-style: normal;
+  color: var(--red);
+}
+
+section {
+  position: relative;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 12.5px;
+  padding: 15px 26px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background: var(--ink);
+  color: var(--cream);
+}
+
+.btn.btn-red {
+  border-color: var(--red);
+  background: var(--red);
+  color: var(--cream);
+}
+
+.btn.btn-red:hover {
+  background: var(--red-deep);
+  border-color: var(--red-deep);
+}
+
+.btn.btn-light {
+  border-color: rgba(250, 245, 236, 0.6);
+  color: var(--cream);
+}
+
+.btn.btn-light:hover {
+  background: var(--cream);
+  color: var(--ink);
+}

@@ -1,0 +1,129 @@
+.hero {
+  position: relative;
+  height: 100svh;
+  min-height: 620px;
+  overflow: hidden;
+  background: var(--stucco);
+}
+
+.image {
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+
+.scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(20, 16, 13, 0.82) 0%,
+    rgba(20, 16, 13, 0.28) 30%,
+    rgba(20, 16, 13, 0) 55%,
+    rgba(20, 16, 13, 0.12) 100%
+  );
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 56px;
+}
+
+.headline {
+  font-family: var(--font-display);
+  color: var(--red);
+  text-transform: uppercase;
+  font-size: clamp(40px, 8vw, 92px);
+  line-height: 0.98;
+  letter-spacing: 0.005em;
+  margin: 0;
+  max-width: 900px;
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
+}
+
+.bottomRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tagline {
+  font-family: var(--font-body);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--cream);
+  letter-spacing: 0.03em;
+  font-size: clamp(14px, 1.6vw, 19px);
+  margin: 0;
+}
+
+.br {
+  display: none;
+}
+
+.btn {
+  flex-shrink: 0;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 26px;
+  right: 32px;
+  z-index: 2;
+  width: 30px;
+  height: 46px;
+  border: 1px solid rgba(250, 245, 236, 0.6);
+  border-radius: 20px;
+  display: none;
+}
+
+.scroll span {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--cream);
+  transform: translateX(-50%);
+  animation: scrollDown 1.8s ease infinite;
+}
+
+@keyframes scrollDown {
+  0% {
+    opacity: 1;
+    top: 8px;
+  }
+  80% {
+    opacity: 0;
+    top: 28px;
+  }
+  100% {
+    opacity: 0;
+    top: 8px;
+  }
+}
+
+@media (min-width: 700px) {
+  .scroll {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  .content {
+    padding-top: 120px;
+  }
+  .br {
+    display: block;
+  }
+}
