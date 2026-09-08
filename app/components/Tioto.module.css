@@ -63,7 +63,7 @@
 
 .left p,
 .right p {
-  font-family: var(--font-body);
+  font-family: var(--font-arimo);
   font-weight: 700;
   color: var(--red);
   font-size: 16px;

@@ -58,7 +58,7 @@
 
 .toggle {
   flex-shrink: 0;
-  font-family: var(--font-body);
+  font-family: var(--font-arimo);
   font-weight: 700;
   color: var(--ink);
   font-size: 24px;
@@ -67,7 +67,7 @@
 
 .answer {
   margin: 16px 0 0;
-  font-family: var(--font-body);
+  font-family: var(--font-arimo);
   font-weight: 700;
   font-size: 15.5px;
   line-height: 1.7;
