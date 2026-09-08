@@ -21,7 +21,8 @@
   z-index: 2;
   margin: 0;
   max-width: 92%;
-  font-family: var(--font-display);
+  font-family: var(--font-glacial);
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--red);
   font-size: clamp(26px, 3.6vw, 46px);
@@ -82,7 +83,8 @@
 
 .quote {
   margin: 0;
-  font-family: var(--font-display);
+  font-family: var(--font-glacial);
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--red);
   font-size: clamp(28px, 3.6vw, 48px);
