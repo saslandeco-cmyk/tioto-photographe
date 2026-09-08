@@ -52,7 +52,7 @@
   font-family: var(--font-display);
   text-transform: uppercase;
   color: var(--red);
-  font-size: clamp(17px, 1.9vw, 24px);
+  font-size: 29px;
   letter-spacing: 0.005em;
 }
 
