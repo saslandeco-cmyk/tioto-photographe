@@ -34,6 +34,7 @@
   --font-body: "Work Sans", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
   --font-glacial: "Glacial Indifference", "Work Sans", sans-serif;
+  --font-arimo: "Arimo", sans-serif;
 
   --wrap: 1240px;
 }
@@ -66,6 +67,11 @@ body {
   font-feature-settings: "ss01" on;
 }
 
+p,
+span {
+  font-family: var(--font-arimo);
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -91,7 +97,7 @@ button {
 }
 
 .eyebrow {
-  font-family: var(--font-mono);
+  font-family: var(--font-arimo);
   text-transform: uppercase;
   letter-spacing: 0.14em;
   font-size: 12px;
