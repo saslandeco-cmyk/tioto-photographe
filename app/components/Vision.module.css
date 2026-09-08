@@ -55,6 +55,7 @@
   background: var(--red);
   padding: 40px 38px;
   box-shadow: 0 30px 60px rgba(20, 16, 13, 0.28);
+  border-radius:10px;
 }
 
 .card p {
