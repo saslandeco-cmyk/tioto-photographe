@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section id="top" className={styles.hero}>
       <Image
-        src="/images/photographe-mariage-landes1.jpg"
+        src="/images/hero.jpg"
         alt="Un couple de mariés se tient la main et se regarde devant un mur enduit, en Gironde"
         fill
         priority
@@ -13,6 +13,8 @@ export default function Hero() {
         className={styles.image}
       />
       <div className={styles.scrim} />
+
+      <h2 className={styles.topTitle}>Le jour de votre vie</h2>
 
       <div className={`wrap ${styles.content}`}>
         <div className={styles.bottomRow}>
