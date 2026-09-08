@@ -33,6 +33,7 @@
   text-align: center;
   text-transform: uppercase;
   font-family: var(--font-glacial);
+  font-weight: 700;
   color: var(--red);
   font-size: clamp(28px, 5.2vw, 64px);
   line-height: 1.05;

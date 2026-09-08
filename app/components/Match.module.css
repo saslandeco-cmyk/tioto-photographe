@@ -33,7 +33,8 @@
 }
 
 .headline {
-  font-family: var(--font-display);
+  font-family: var(--font-glacial);
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--cream);
   font-size: clamp(20px, 5.6vw, 78px);

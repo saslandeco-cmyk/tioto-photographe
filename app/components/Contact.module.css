@@ -12,6 +12,8 @@
 
 .heading {
   color: var(--cream);
+  font-family: var(--font-glacial);
+  font-weight: 700;
 }
 
 .p {
