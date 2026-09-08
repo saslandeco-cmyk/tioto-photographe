@@ -25,7 +25,7 @@ export default function WhyPhotographer() {
         <div className={styles.topRow}>
           <div className={styles.bridePhoto}>
             <Image
-              src="/images/why-bride.jpg"
+              src="/images/photographe-mariage-landes2.jpg"
               alt="Portrait de la mariée sous son voile, lumière de fin de journée"
               fill
               sizes="(max-width: 900px) 60vw, 260px"
