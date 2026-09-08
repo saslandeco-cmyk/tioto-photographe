@@ -35,7 +35,7 @@
   font-family: var(--font-glacial);
   font-weight: 700;
   color: var(--red);
-  font-size: clamp(28px, 5.2vw, 64px);
+  font-size: clamp(28px, 5.2vw, 80px);
   line-height: 1.05;
   letter-spacing: 0.02em;
   padding: 0 24px;
