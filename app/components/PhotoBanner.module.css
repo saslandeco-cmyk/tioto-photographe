@@ -1,15 +1,14 @@
 .section {
   position: relative;
-  height: 82vh;
-  min-height: 420px;
-  max-height: 760px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   background: var(--ink);
 }
 
 .photo {
-  object-fit: cover;
-  object-position: 50% 35%;
+  object-fit: contain;
+  object-position: 50% 50%;
 }
 
 .caption {
