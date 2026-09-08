@@ -41,9 +41,9 @@
   font-weight: 700;
   text-transform: uppercase;
   color: var(--cream);
-  font-size: clamp(20px, 5.6vw, 78px);
+  font-size: 110px;
   line-height: 0.98;
-  letter-spacing: 0.005em;
+  letter-spacing: 0em;
   margin: 0;
   width: 100%;
   text-align: center;
