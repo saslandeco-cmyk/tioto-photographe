@@ -12,7 +12,7 @@ export default function Pricing() {
         <div className={styles.grid}>
           <div className={styles.photo}>
             <Image
-              src="/images/prix-left.jpg"
+              src="/images/photographe-mariage-bordeaux2.jpg"
               alt="La mariée souriante, voile porté par le vent, sur une terrasse"
               fill
               sizes="(max-width: 900px) 100vw, 26vw"
