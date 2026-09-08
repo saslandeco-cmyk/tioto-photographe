@@ -20,7 +20,7 @@
   left: 24px;
   z-index: 2;
   margin: 0;
-  max-width: 92%;
+  max-width: 100%;
   font-family: var(--font-glacial);
   font-weight: 400;
   text-transform: uppercase;
