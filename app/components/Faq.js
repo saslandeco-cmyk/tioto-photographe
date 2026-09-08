@@ -65,7 +65,7 @@ export default function Faq() {
 
       <div className={styles.photoCol}>
         <Image
-          src="/images/faq.jpg"
+          src="/images/photographe-mariage-bordeaux1.jpg"
           alt="Les mariés s'enlacent tendrement sur la plage"
           fill
           sizes="(max-width: 900px) 100vw, 42vw"
