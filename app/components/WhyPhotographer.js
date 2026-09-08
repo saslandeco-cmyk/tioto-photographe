@@ -6,7 +6,7 @@ export default function WhyPhotographer() {
     <section id="pourquoi" className={styles.section}>
       <div className={styles.photoCol}>
         <Image
-          src="/images/why-couple.jpg"
+          src="/images/photographe-mariage-landes.jpg"
           alt="Les mariés main dans la main, bras levés, au coucher du soleil"
           fill
           sizes="(max-width: 900px) 100vw, 42vw"
