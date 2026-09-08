@@ -11,15 +11,15 @@
 
 .title {
   font-family: var(--font-glacial);
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   color: var(--red);
   font-size: clamp(32px, 4.4vw, 56px);
   line-height: 1;
   letter-spacing: 0.005em;
   margin: 0 0 20px;
-  padding-bottom: 18px;
-  border-bottom: 4px solid var(--red);
+  padding-bottom: 0px;
+  border-bottom: 3px solid var(--red);
   display: inline-block;
 }
 
