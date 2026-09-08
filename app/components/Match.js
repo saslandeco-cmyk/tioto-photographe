@@ -7,7 +7,7 @@ export default function Match() {
   return (
     <section id="match" className={styles.match}>
       <Image
-        src="/images/match.jpg"
+        src="/images/photographe-mariage1.jpg"
         alt="Coupes de champagne entrechoquées avec des stickers Bride Squad, ambiance EVJF"
         fill
         sizes="100vw"
