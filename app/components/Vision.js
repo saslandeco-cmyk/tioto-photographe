@@ -8,7 +8,7 @@ export default function Vision() {
         <div className={styles.whitePanel} />
         <div className={styles.photoPanel}>
           <Image
-            src="/images/photographe-mariage-bordeaux3.jpg"
+            src="/images/vision.jpg"
             alt="Invités et mariés dansant et riant pendant la fête, lunettes en forme de cœur"
             fill
             sizes="(max-width: 900px) 100vw, 81vw"

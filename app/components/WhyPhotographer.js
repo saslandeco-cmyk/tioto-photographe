@@ -6,7 +6,7 @@ export default function WhyPhotographer() {
     <section id="pourquoi" className={styles.section}>
       <div className={styles.photoCol}>
         <Image
-          src="/images/photographe-mariage-landes.jpg"
+          src="/images/why-couple.jpg"
           alt="Les mariés main dans la main, bras levés, au coucher du soleil"
           fill
           sizes="(max-width: 900px) 100vw, 42vw"
@@ -25,7 +25,7 @@ export default function WhyPhotographer() {
         <div className={styles.topRow}>
           <div className={styles.bridePhoto}>
             <Image
-              src="/images/photographe-mariage-landes2.jpg"
+              src="/images/why-bride.jpg"
               alt="Portrait de la mariée sous son voile, lumière de fin de journée"
               fill
               sizes="(max-width: 900px) 60vw, 260px"

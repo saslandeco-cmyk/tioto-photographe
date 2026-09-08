@@ -23,6 +23,24 @@
   );
 }
 
+.topTitle {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-glacial);
+  color: var(--red);
+  font-size: clamp(28px, 5.2vw, 64px);
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+  padding: 0 24px;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.2);
+}
+
 .content {
   position: relative;
   z-index: 2;

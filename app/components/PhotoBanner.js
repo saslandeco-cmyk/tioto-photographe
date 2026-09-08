@@ -5,7 +5,7 @@ export default function PhotoBanner() {
   return (
     <section className={styles.section}>
       <Image
-        src="/images/photographe-mariage-landes-2.jpg"
+        src="/images/couloir.jpg"
         alt="Les mariés se tiennent la main en souriant, dans un couloir de cinéma vintage"
         fill
         sizes="100vw"
