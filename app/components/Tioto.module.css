@@ -3,6 +3,7 @@
   overflow: hidden;
   min-height: 820px;
   background: var(--stucco);
+  max-width:95%
 }
 
 .photo {
