@@ -32,6 +32,10 @@
   flex-direction: column;
 }
 
+.match .content {
+  max-width: 95%;
+}
+
 .headline {
   font-family: var(--font-glacial);
   font-weight: 700;
