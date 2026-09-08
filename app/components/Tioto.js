@@ -5,7 +5,7 @@ export default function Tioto() {
   return (
     <section id="tioto" className={styles.section}>
       <Image
-        src="/images/tioto.jpg"
+        src="/images/photographe-mariage-landes-bordeaux-pays-basque.jpg"
         alt="Le photographe, verre à la main, dans une baignoire vintage en marbre"
         fill
         sizes="100vw"
