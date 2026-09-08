@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section id="top" className={styles.hero}>
       <Image
-        src="/images/hero.jpg"
+        src="/images/photographe-mariage-landes1.jpg"
         alt="Un couple de mariés se tient la main et se regarde devant un mur enduit, en Gironde"
         fill
         priority
