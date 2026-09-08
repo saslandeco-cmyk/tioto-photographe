@@ -32,7 +32,8 @@
   top: 64px;
   left: 2%;
   margin: 0;
-  font-family: var(--font-display);
+  font-family: var(--font-glacial);
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--red);
   font-size: clamp(64px, 11.5vw, 168px);
