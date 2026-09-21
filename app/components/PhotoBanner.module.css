@@ -1,13 +1,13 @@
 .section {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 1600 / 1067;
   overflow: hidden;
   background: var(--ink);
 }
 
 .photo {
-  object-fit: contain;
+  object-fit: cover;
   object-position: 50% 50%;
 }
 
