@@ -106,7 +106,7 @@
     transform-origin: left center;
     padding: 0 24px;
     margin: 0 0 38px;
-    font-size: clamp(56px, 18vw, 96px);
+    font-size: clamp(100px, 18vw, 96px);
     white-space: normal;
   }
 
