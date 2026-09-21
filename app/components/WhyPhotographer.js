@@ -12,13 +12,13 @@ export default function WhyPhotographer() {
           sizes="(max-width: 900px) 100vw, 42vw"
           className={styles.photo}
         />
-        <h2 className={styles.title}>
+        <p className={styles.title}>
           Pourquoi investir
           <br />
           dans un
           <br />
           photographe&nbsp;?
-        </h2>
+        </p>
       </div>
 
       <div className={styles.contentCol}>
@@ -56,11 +56,11 @@ export default function WhyPhotographer() {
           </div>
         </div>
 
-        <h3 className={styles.quote}>
+        <p className={styles.quote}>
           La photo de mariage c&rsquo;est plus
           <br />
           qu&rsquo;un simple clic&nbsp;!
-        </h3>
+        </p>
       </div>
     </section>
   );

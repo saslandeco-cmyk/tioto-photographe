@@ -14,7 +14,7 @@ export default function Tioto() {
       <div className={styles.scrim} />
 
       <div className={`wrap ${styles.content}`}>
-        <h2 className={styles.title}>Tioto, c&rsquo;est qui&nbsp;?</h2>
+        <p className={styles.title}>Tioto, c&rsquo;est qui&nbsp;?</p>
 
         <div className={styles.columns}>
           <div className={styles.left}>

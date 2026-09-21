@@ -37,7 +37,7 @@ export default function Faq() {
   return (
     <section id="faq" className={styles.section}>
       <div className={styles.textCol}>
-        <h2 className={styles.title}>Questions fréquentes&nbsp;?!</h2>
+        <p className={styles.title}>Questions fréquentes&nbsp;?!</p>
 
         <ul className={styles.list}>
           {FAQS.map((item, i) => {
