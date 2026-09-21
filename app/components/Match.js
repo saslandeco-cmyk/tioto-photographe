@@ -16,7 +16,7 @@ export default function Match() {
       <div className={styles.scrim} />
 
       <div className={`wrap ${styles.content}`}>
-        <h2 className={styles.headline}>On matche si tu veux&nbsp;?!</h2>
+        <p className={styles.headline}>On matche si tu veux&nbsp;?!</p>
 
         <ul className={styles.words}>
           {WORDS.map((w) => (

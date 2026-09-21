@@ -41,7 +41,7 @@
   font-weight: 700;
   text-transform: uppercase;
   color: var(--cream);
-  font-size: clamp(30px, 6vw, 110px);
+  font-size: clamp(48px, 6vw, 110px);
   line-height: 1.02;
   letter-spacing: 0em;
   margin: 0;
