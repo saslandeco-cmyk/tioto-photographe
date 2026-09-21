@@ -14,7 +14,7 @@ export default function Hero() {
       />
       <div className={styles.scrim} />
 
-      <h2 className={styles.topTitle}>Le jour de votre vie</h2>
+      <p className={styles.topTitle}>Le jour de votre vie</p>
 
       <div className={`wrap ${styles.content}`}>
         <div className={styles.bottomRow}>
