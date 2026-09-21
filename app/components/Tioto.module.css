@@ -77,6 +77,13 @@
   margin-bottom: 0;
 }
 
+@media (max-width: 900px) {
+  .photo {
+    object-fit: cover;
+    object-position: 35% 50%;
+  }
+}
+
 @media (max-width: 860px) {
   .columns {
     grid-template-columns: minmax(0, 1fr);
