@@ -31,7 +31,7 @@
   font-weight: 700;
   text-transform: uppercase;
   color: var(--red);
-  font-size: clamp(30px, 4.4vw, 52px);
+  font-size: clamp(40px, 4.4vw, 52px);
   line-height: 1;
   margin: 0;
   text-shadow: 0 2px 1px #0009;
