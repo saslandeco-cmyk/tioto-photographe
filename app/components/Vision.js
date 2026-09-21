@@ -17,7 +17,7 @@ export default function Vision() {
         </div>
       </div>
 
-      <h2 className={styles.title}>Vision</h2>
+      <p className={styles.title}>Vision</p>
 
       <div className={styles.card}>
         <p>
