@@ -39,6 +39,12 @@
   --wrap: 1240px;
 }
 
+@media (min-width: 1440px) {
+  :root {
+    --wrap: 1400px;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
