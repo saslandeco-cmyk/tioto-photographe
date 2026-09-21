@@ -72,4 +72,8 @@
   .grid {
     gap: 0px;
   }
+
+  .title {
+    font-size: clamp(43px, 6vw, 59px);
+  }
 }
