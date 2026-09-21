@@ -106,10 +106,7 @@
   }
 
   .bridePhoto {
-    margin-left: 0;
-    margin-top: 0;
-    width: 200px;
-    flex-basis: auto;
+    display: none;
   }
 
   .contentCol {
