@@ -3,7 +3,6 @@
   overflow: hidden;
   min-height: 820px;
   background: var(--stucco);
-  max-width:95%
 }
 
 .photo {
@@ -46,7 +45,7 @@
   flex: 1;
   margin-top: 60px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 40px;
 }
 
@@ -80,7 +79,7 @@
 
 @media (max-width: 860px) {
   .columns {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 32px;
   }
 

@@ -12,7 +12,7 @@
 .route {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 50px;
   margin-top: 90px;
 }
@@ -91,7 +91,7 @@
 
 @media (max-width: 860px) {
   .route {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 64px;
   }
   .line {

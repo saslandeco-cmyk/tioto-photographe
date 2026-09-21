@@ -96,6 +96,12 @@ button {
   padding: 0 32px;
 }
 
+@media (max-width: 480px) {
+  .wrap {
+    padding: 0 20px;
+  }
+}
+
 .eyebrow {
   font-family: var(--font-arimo);
   text-transform: uppercase;

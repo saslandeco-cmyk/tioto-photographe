@@ -41,13 +41,13 @@
   font-weight: 700;
   text-transform: uppercase;
   color: var(--cream);
-  font-size: 110px;
-  line-height: 0.98;
+  font-size: clamp(30px, 6vw, 110px);
+  line-height: 1.02;
   letter-spacing: 0em;
   margin: 0;
   width: 100%;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
   text-shadow: 0 2px 24px rgba(0, 0, 0, 0.25);
 }
 
