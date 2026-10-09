@@ -7,7 +7,7 @@ export default function Match() {
   return (
     <section id="match" className={styles.match}>
       <Image
-        src="/images/photographe-mariage1.jpg"
+        src="/images/match.avif"
         alt="Coupes de champagne entrechoquées avec des stickers Bride Squad, ambiance EVJF"
         fill
         sizes="100vw"
@@ -16,7 +16,7 @@ export default function Match() {
       <div className={styles.scrim} />
 
       <div className={`wrap ${styles.content}`}>
-        <p className={styles.headline}>On matche si tu veux&nbsp;?!</p>
+        <h2 className={styles.headline}>On matche si tu veux&nbsp;?!</h2>
 
         <ul className={styles.words}>
           {WORDS.map((w) => (

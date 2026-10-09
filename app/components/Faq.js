@@ -37,7 +37,7 @@ export default function Faq() {
   return (
     <section id="faq" className={styles.section}>
       <div className={styles.textCol}>
-        <p className={styles.title}>Questions fréquentes&nbsp;?!</p>
+        <h2 className={styles.title}>Questions fréquentes&nbsp;?!</h2>
 
         <ul className={styles.list}>
           {FAQS.map((item, i) => {
@@ -65,7 +65,7 @@ export default function Faq() {
 
       <div className={styles.photoCol}>
         <Image
-          src="/images/photographe-mariage-bordeaux1.jpg"
+          src="/images/faq.avif"
           alt="Les mariés s'enlacent tendrement sur la plage"
           fill
           sizes="(max-width: 900px) 100vw, 42vw"

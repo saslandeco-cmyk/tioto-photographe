@@ -6,26 +6,26 @@ export default function WhyPhotographer() {
     <section id="pourquoi" className={styles.section}>
       <div className={styles.photoCol}>
         <Image
-          src="/images/photographe-mariage-landes.jpg"
+          src="/images/why-couple.avif"
           alt="Les mariés main dans la main, bras levés, au coucher du soleil"
           fill
           sizes="(max-width: 900px) 100vw, 42vw"
           className={styles.photo}
         />
-        <p className={styles.title}>
+        <h2 className={styles.title}>
           Pourquoi investir
           <br />
           dans un
           <br />
           photographe&nbsp;?
-        </p>
+        </h2>
       </div>
 
       <div className={styles.contentCol}>
         <div className={styles.topRow}>
           <div className={styles.bridePhoto}>
             <Image
-              src="/images/photographe-mariage-landes2.jpg"
+              src="/images/why-bride.avif"
               alt="Portrait de la mariée sous son voile, lumière de fin de journée"
               fill
               sizes="(max-width: 900px) 60vw, 260px"
@@ -56,11 +56,11 @@ export default function WhyPhotographer() {
           </div>
         </div>
 
-        <p className={styles.quote}>
+        <h3 className={styles.quote}>
           La photo de mariage c&rsquo;est plus
           <br />
           qu&rsquo;un simple clic&nbsp;!
-        </p>
+        </h3>
       </div>
     </section>
   );

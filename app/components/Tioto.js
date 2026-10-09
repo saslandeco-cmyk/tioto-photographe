@@ -5,7 +5,7 @@ export default function Tioto() {
   return (
     <section id="tioto" className={styles.section}>
       <Image
-        src="/images/photographe-mariage-landes-bordeaux-pays-basque.jpg"
+        src="/images/tioto.avif"
         alt="Le photographe, verre à la main, dans une baignoire vintage en marbre"
         fill
         sizes="100vw"
@@ -14,7 +14,7 @@ export default function Tioto() {
       <div className={styles.scrim} />
 
       <div className={`wrap ${styles.content}`}>
-        <p className={styles.title}>Tioto, c&rsquo;est qui&nbsp;?</p>
+        <h2 className={styles.title}>Tioto, c&rsquo;est qui&nbsp;?</h2>
 
         <div className={styles.columns}>
           <div className={styles.left}>
