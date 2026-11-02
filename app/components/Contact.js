@@ -8,11 +8,6 @@ export default function Contact() {
           <span className="eyebrow" style={{ color: "var(--cream)" }}>
             Contact
           </span>
-          <h2 className={`section-heading ${styles.heading}`}>
-            Racontons
-            <br />
-            votre <em>jour&nbsp;J</em>.
-          </h2>
           <p className={styles.p}>
             Dites-m&rsquo;en un peu plus sur votre mariage &mdash; date, lieu, ambiance
             envisagée &mdash; et je reviens vers vous sous 48h avec les disponibilités
