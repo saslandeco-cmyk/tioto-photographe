@@ -5,8 +5,9 @@ export default function Approche() {
     <section id="approche" className={styles.section}>
       <div className={`wrap ${styles.wrap}`}>
         <h2 className={styles.title}>
-          Photographe de mariage en Gironde : des photos naturelles et
-          authentiques pour raconter votre histoire
+          Photographe de mariage en Gironde&nbsp;:
+          <br />
+          des photos naturelles et authentiques pour raconter votre histoire
         </h2>
 
         <p>

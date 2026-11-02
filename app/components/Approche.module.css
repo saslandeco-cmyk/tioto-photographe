@@ -13,6 +13,7 @@
   font-family: var(--font-glacial);
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
   color: var(--red);
   font-size: clamp(30px, 4.2vw, 44px);
   line-height: 1.08;
