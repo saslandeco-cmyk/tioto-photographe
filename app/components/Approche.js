@@ -1,6 +1,11 @@
+"use client";
+
+import { useState } from "react";
 import styles from "./Approche.module.css";
 
 export default function Approche() {
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <section id="approche" className={styles.section}>
       <div className={`wrap ${styles.wrap}`}>
@@ -25,14 +30,17 @@ export default function Approche() {
           de vous permettre de retrouver, à travers chaque photographie, les
           émotions et l'atmosphère de cette journée si particulière.
         </p>
-        <p>
-          Si vous recherchez un photographe de mariage en Gironde ou un
-          professionnel pour réaliser vos photos de mariage à Bordeaux, je
-          vous invite à découvrir mon approche&nbsp;: un reportage vivant,
-          spontané et authentique, où les émotions ont toujours leur place.
-        </p>
+        <div
+          className={`${styles.collapsible} ${expanded ? styles.expanded : ""}`}
+        >
+          <p>
+            Si vous recherchez un photographe de mariage en Gironde ou un
+            professionnel pour réaliser vos photos de mariage à Bordeaux, je
+            vous invite à découvrir mon approche&nbsp;: un reportage vivant,
+            spontané et authentique, où les émotions ont toujours leur place.
+          </p>
 
-        <h3 className={styles.subtitle}>
+          <h3 className={styles.subtitle}>
           Photographe de mariage en Gironde&nbsp;: raconter votre journée
           sans la dénaturer
         </h3>
@@ -258,6 +266,18 @@ export default function Approche() {
           Contactez-moi pour me raconter votre histoire et parlons ensemble
           de votre futur mariage&nbsp;!
         </p>
+
+          {!expanded && <div className={styles.fade} aria-hidden="true" />}
+        </div>
+
+        <button
+          type="button"
+          className={styles.readMoreBtn}
+          onClick={() => setExpanded((v) => !v)}
+          aria-expanded={expanded}
+        >
+          {expanded ? "Réduire" : "Lire la suite"}
+        </button>
       </div>
     </section>
   );
