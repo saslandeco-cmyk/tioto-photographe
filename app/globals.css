@@ -112,7 +112,7 @@ button {
   font-family: var(--font-arimo);
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  font-size: 12px;
+  font-size: 20px;
   color: var(--red-deep);
   display: inline-flex;
   align-items: center;
