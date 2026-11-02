@@ -6,6 +6,7 @@ import PhotoBanner from "./components/PhotoBanner";
 import Faq from "./components/Faq";
 import Tioto from "./components/Tioto";
 import Pricing from "./components/Pricing";
+import Approche from "./components/Approche";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Faq />
         <Tioto />
         <Pricing />
+        <Approche />
         <Contact />
       </main>
       <Footer />
