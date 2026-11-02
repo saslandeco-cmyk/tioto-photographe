@@ -17,11 +17,11 @@ export default function Contact() {
           <dl className={styles.infos}>
             <div>
               <dt>Email</dt>
-              <dd>bonjour@linstantj-photo.fr</dd>
+              <dd>contact@tioto.fr</dd>
             </div>
             <div>
               <dt>Téléphone</dt>
-              <dd>06 00 00 00 00</dd>
+              <dd>07.83.87.36.25</dd>
             </div>
             <div>
               <dt>Zone</dt>
