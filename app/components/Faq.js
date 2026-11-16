@@ -23,7 +23,7 @@ const FAQS = [
   },
   {
     q: "Vous déplacez-vous partout en France ?",
-    a: "Oui, avec plaisir. Les déplacements font l'objet d'un calcul selon la distance qui apparîtront clairement dans le devis sont inclus.",
+    a: "Oui, avec plaisir. Les déplacements font l'objet d'un calcul dont le coût dépend de la distance. Le tarif de mes déplacements apparaît clairement dans mes devis.",
   },
   {
     q: "Et si vous êtes malade ?",
