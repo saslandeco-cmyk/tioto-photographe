@@ -20,7 +20,7 @@ export default function Hero() {
         <div className={styles.bottomRow}>
           <h1 className={styles.tagline}>
             Photographe de mariage
-            <br className={styles.br} /> Gironde&nbsp;–&nbsp;Landes&nbsp;–&nbsp;Pays&nbsp;Basque
+            <br className={styles.br} /> à Bordeaux&nbsp;–&nbsp; dans les Landes&nbsp;–&nbsp; et au Pays&nbsp;Basque
           </h1>
         </div>
       </div>
