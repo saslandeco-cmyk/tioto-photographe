@@ -23,7 +23,7 @@ const FAQS = [
   },
   {
     q: "Vous déplacez-vous partout en France ?",
-    a: "Oui, avec plaisir. Les déplacements en Gironde, Landes et Pays Basque sont inclus ; au-delà, les frais sont calculés simplement selon la distance.",
+    a: "Oui, avec plaisir. Les déplacements font l'objet d'un calcul selon la distance qui apparîtront clairement dans le devis sont inclus.",
   },
   {
     q: "Et si vous êtes malade ?",
