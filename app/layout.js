@@ -27,9 +27,9 @@ const arimo = Arimo({
 });
 
 export const metadata = {
-  title: "L'Instant J — Photographe de mariage Gironde · Landes · Pays Basque",
+  title: "Photographe mariage Bordeaux, Landes & Pays Basque | L'Instant J",
   description:
-    "Photographe de mariage entre Gironde, Landes et Pays Basque. Des images vraies, sans pose forcée, pour raconter le jour de votre vie.",
+    "Photographe de mariage à Bordeaux, dans les Landes et au Pays Basque. Des photos naturelles, spontanées et pleines d'émotions. Découvrez mon univers !",
 };
 
 export default function RootLayout({ children }) {
